@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RV</string>
+    <string name="textMatricule">Matricule : </string>
+    <string name="textMdp">Mot de passe : </string>
+    <string name="textValider">VALIDER</string>
+    <string name="textAnnuler">ANNULER</string>
+    <string name="textMois">Mois : </string>
+    <string name="textAnnee">Année : </string>
+
+    <string name="title_activity_menu_rv">Menu</string>
+    <string name="title_activity_recherche_rv">Rechercher un rapport de visite</string>
+    <string name="title_activity_liste_rv">Liste des rapports de visite</string>
+
+    <string name="btConsulterUnRapportDeVisite">Consulter Un Rapport De Visite</string>
+    <string name="btSaisirUnRapportDeVisite">Saisir Un Rapport De Visite</string>
+    <string name="btAfficherLaListeDesRapports">Afficher La Liste Des Rapports</string>
+    <string name="title_activity_saisir_rv">SaisirRvActivity</string>
+
+    <string name="textDataDeLaCommande">Date de la commande : </string>
+    <string name="textModifDateCommande">Modifier date </string>
+    <string name="textPraticien">Praticien : </string>
+    <string name="textMotif">Motif : </string>
+    <string name="textBilan">Bilan : </string>
+    <string name="textCoeff">Coefficient de confiance : </string>
+
+
+
+
+</resources>

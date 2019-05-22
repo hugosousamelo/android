@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SaisirRvActivity"
+    tools:showIn="@layout/activity_saisir_rv"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_date_commande"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textDataDeLaCommande"/>
+
+    <TextView
+        android:id="@+id/tv_date_selectionnee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/b_selectionner_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textModifDateCommande"
+        android:onClick="modifDateVisite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textPraticien"/>
+
+    <Spinner
+        android:id="@+id/spPraticien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textMotif"/>
+
+    <Spinner
+        android:id="@+id/spMotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textBilan"/>
+
+    <EditText
+        android:id="@+id/etBilan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textMultiLine"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textCoeff"/>
+
+    <Spinner
+        android:id="@+id/spCoeff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true" />
+
+    <Button
+        android:id="@+id/bValider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textValider"
+        android:onClick="saisirRapport" />
+
+    <Button
+        android:id="@+id/bAnnuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textAnnuler"
+        android:onClick="annuler"
+        android:layout_toRightOf="@+id/bValider" />
+
+
+</LinearLayout>

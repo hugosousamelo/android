@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.gsb.rv.MainActivity">
+
+    <TextView
+        android:id="@+id/tvErreur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textMatricule" />
+
+    <EditText
+        android:id="@+id/etMatricule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textMdp" />
+
+    <EditText
+        android:id="@+id/etMdp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bValider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textValider"
+        android:onClick="seConnecter" />
+
+    <Button
+        android:id="@+id/bAnnuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textAnnuler"
+        android:onClick="annuler"/>
+
+</LinearLayout>
